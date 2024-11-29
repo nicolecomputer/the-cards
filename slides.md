@@ -39,9 +39,15 @@ layout: TableCenter
 layout: TableCenter
 ---
 
-# Dark Cards
-
-Probably all on one table
+<ThreeUp>
+  <CardFront title="Chronic Depression" kind="dark" imageUrl="/dark-perfectionism.svg" :animated="false" />
+  <v-click>
+    <CardFront title="Perfectionism" kind="dark" imageUrl="/dark-depression.svg" :animated="false" />
+  </v-click>
+  <v-click>
+    <CardFront title="Nuerodiversity" kind="dark" imageUrl="/dark-nuerodiversity.svg" :animated="false" />
+  </v-click>
+</ThreeUp>
 
 ---
 layout: TableCenter
@@ -96,7 +102,7 @@ layout: CardAndText
 ---
 
 <template v-slot:card>
-  <LightCard title="Nature" imageUrl="/nature.svg" />
+  <CardFront title="Nature" imageUrl="/nature.svg" />
 </template>
 
 - Blah
@@ -108,7 +114,7 @@ layout: CardAndText
 ---
 
 <template v-slot:card>
-  <LightCard title="Community" imageUrl="/community.svg" rotationAngle="3" />
+  <CardFront title="Community" imageUrl="/community.svg" rotationAngle="3" />
 </template>
 
 # Community
@@ -118,7 +124,7 @@ layout: CardAndText
 ---
 
 <template v-slot:card>
-  <LightCard title="Vitality" imageUrl="/vitality.svg" rotationAngle="-4" />
+  <CardFront title="Vitality" imageUrl="/vitality.svg" rotationAngle="-4" />
 </template>
 
 # The body
@@ -128,7 +134,7 @@ layout: CardAndText
 ---
 
 <template v-slot:card>
-  <LightCard title="Art" imageUrl="/art.svg" rotationAngle="7" />
+  <CardFront title="Art" imageUrl="/art.svg" rotationAngle="7" />
 </template>
 
 # Art
@@ -138,7 +144,7 @@ layout: CardAndText
 ---
 
 <template v-slot:card>
-  <LightCard title="Rest" imageUrl="/rest.svg" />
+  <CardFront title="Rest" imageUrl="/rest.svg" />
 </template>
 
 # Rest

@@ -1,5 +1,5 @@
 <template>
-    <div class="card" :style="cardStyle">
+    <div class="card" :style="cardStyle" :class="[`card--${kind}`]">
         <img :src="imageUrl" />
         <h2>{{ title }}</h2>
     </div>
@@ -20,12 +20,22 @@ const props = defineProps({
     rotationAngle: {
         type: String,
         default: "-8",
+    },
+    animated: {
+        type: Boolean,
+        default: true,
+    },
+    kind: {
+        type: String,
+        default: 'light',
+        validator: (value) => ['light', 'dark', 'obstacle'].includes(value)
     }
 });
 
 const cardStyle = computed(() => ({
     '--final-rotation': `${props.rotationAngle}deg`,
-    animation: 'enter 1.2s ease-in-out forwards'
+    animation: props.animated ? 'enter 1.2s ease-in-out forwards' : 'none',
+    'box-shadow': props.animated ? '' : '0px 0px 40px rgba(255, 0, 0, 0.3)'
 }));
 </script>
 
@@ -52,16 +62,27 @@ img {
     padding: 5px;
 }
 
-.card {
+.card--light {
     background: #e4b0b0ff;
+}
+
+.card--dark {
+    background: #585867ff;
+}
+
+.card--obstacle {
+    background: red;
+}
+
+
+
+.card {
     border-radius: 16px;
     height: 350px;
     width: 220px;
 
-    animation: enter 1.2s ease-in-out;
     animation-fill-mode: forwards;
     transform-origin: center center;
-
 }
 
 h2 {
