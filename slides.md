@@ -25,7 +25,7 @@ colorSchema: dark
 layout: CurtainCenter
 ---
 
-# The hero
+<Card />
 
 ---
 layout: TableCenter

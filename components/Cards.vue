@@ -33,8 +33,7 @@
   }
   </script>
 
-  <style>
-  /* Note: removed 'scoped' to ensure styles are applied */
+  <style scoped>
   .perspective {
     height: 100vh;
     perspective: 2000px;

@@ -4,7 +4,7 @@
         <div class="curtain-left">
             <img src="/curtain.svg" />
         </div>
-        <slot></slot>
+            <slot></slot>
         <div class="curtain-right">
             <img src="/curtain.svg" />
         </div>
@@ -21,19 +21,23 @@
     left: 0;
     bottom: 0;
     right: 0;
-     background-color: rgb(21, 0, 28);
      display: flex;
      justify-content: center;
      align-items: center;
      color: white;
-}
+     padding-top: 80px;
+
+     background: rgb(226,159,46);
+     background: radial-gradient(circle, rgba(226,159,46,1) 0%, rgba(21,0,28,1) 45%, rgba(0,0,0,1) 96%);
+    }
 
 .curtain-top {
-    position: absolute !important;
-    top: -205px;
+    position: absolute;
+    top: 0;
     z-index: 1;
-    width: 95%;
     filter: brightness(85%);
+    padding: 5px 20px;
+    height: min-content;
 }
 
 img {
@@ -56,20 +60,5 @@ img {
     right: 0;
     z-index: 2;
     transform: scale(-1, 1);
-}
-#overlay::after {
-    content: '';
-    position: absolute;
-    top: 4;
-    right: 4;
-    left: 4;
-    bottom: 40;
-
-    border: 2px solid #DE9B72;
-   	height: 95%;
-    width: 98%;
-    padding: 6px;
-    margin: 0 auto;
-
 }
 </style>
