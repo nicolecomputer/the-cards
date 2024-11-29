@@ -12,11 +12,10 @@ transition: fade
 overviewSnapshots: true
 
 colorSchema: dark
+layout: TableCenter
 ---
 
-<Welcome>
 <Cards />
-</Welcome>
 
 <!-- I want to tell you a story -->
 
@@ -24,7 +23,7 @@ colorSchema: dark
 layout: CurtainCenter
 ---
 
-<Card />
+<Card :animated="true" />
 
 <!-- This is the story of you (flip card) and of me and of what it means to be alive and doing your best -->
 

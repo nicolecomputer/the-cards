@@ -1,10 +1,16 @@
 <template>
-  <div class="card">
+  <div class="card" :class="{ animated: animated }">
     <img src="/card.svg" />
   </div>
 </template>
 
 <script setup>
+defineProps({
+  animated: {
+    type: Boolean,
+    default: false
+  }
+})
 </script>
 
 <style scoped>
@@ -56,7 +62,9 @@ img {
   padding: 10px;
   position: absolute;
   transition: all ease-in 0.3s;
+}
 
+.animated {
   animation: shake 2.2s linear infinite;
   transform-origin: center center;
 }
