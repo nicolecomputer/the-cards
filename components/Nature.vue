@@ -22,10 +22,12 @@ img {
 
     50% {
         transform: rotate(-8deg) translate(0, 0);
+        box-shadow: 0px 0px 40px rgba(255, 254, 253, 0.5);
     }
 
     100% {
-        transform: rotate(-8.0deg) translate(0px, 0)
+        transform: rotate(-8.0deg) translate(0px, 0);
+        box-shadow: 0px 0px 40px rgba(255, 254, 253, 0.5);
     }
 }
 
@@ -33,7 +35,6 @@ img {
 .card {
     background: #e4b0b0ff;
     border-radius: 16px;
-    box-shadow: 0px 0px 40px rgba(255, 254, 253, 0.5);
     height: 350px;
     width: 220px;
 
