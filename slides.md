@@ -29,8 +29,10 @@ layout: CurtainCenter
 
 
 ---
-layout: FlowingCards
+layout: TableCenter
 ---
+
+<FlowingCards />
 
 <!-- You get delt cards -->
 ---

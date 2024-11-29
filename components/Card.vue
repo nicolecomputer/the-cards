@@ -1,11 +1,13 @@
 <template>
-  <div class="card" :class="[`card--${size}`, { animated: animated }]">
+  <div class="card" :class="[`card--${size}`, { animated: animated }]" :style="cardStyle">
     <img src="/card.svg" />
   </div>
 </template>
 
 <script setup>
-defineProps({
+import { computed } from 'vue'
+
+const props = defineProps({
   animated: {
     type: Boolean,
     default: false
@@ -14,8 +16,16 @@ defineProps({
     type: String,
     default: 'large',
     validator: (value) => ['small', 'medium', 'large'].includes(value)
+  },
+  shadowColor: {
+    type: String,
+    default: 'rgba(255, 254, 253, 0.3)'
   }
 })
+
+const cardStyle = computed(() => ({
+  boxShadow: `10px 10px 20px ${props.shadowColor}`
+}))
 </script>
 
 <style scoped>
@@ -61,7 +71,6 @@ img {
 .card {
   background: #e4e4e4;
   border-radius: 16px;
-  box-shadow: 10px 10px 20px rgba(255, 254, 253, 0.3);
   height: 200px;
   aspect-ratio: 220/350;
   padding: 10px;
