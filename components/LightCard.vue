@@ -1,11 +1,13 @@
 <template>
-    <div class="card">
+    <div class="card" :style="cardStyle">
         <img :src="imageUrl" />
         <h2>{{ title }}</h2>
     </div>
 </template>
 
 <script setup>
+import { computed } from 'vue';
+
 const props = defineProps({
     imageUrl: {
         type: String,
@@ -15,32 +17,40 @@ const props = defineProps({
         type: String,
         required: true,
     },
+    rotationAngle: {
+        type: Number,
+        default: -8,
+    }
 });
+
+const cardStyle = computed(() => ({
+    '--final-rotation': `${props.rotationAngle}deg`,
+    animation: 'enter 1.2s ease-in-out forwards'
+}));
 </script>
+
+<style>
+@keyframes enter {
+    0% {
+        transform: rotate(0deg) translate(0, 300px);
+    }
+
+    50% {
+        transform: rotate(var(--final-rotation, -8deg)) translate(0, 0);
+        box-shadow: 0px 0px 40px rgba(255, 254, 253, 0.5);
+    }
+
+    100% {
+        transform: rotate(var(--final-rotation, -8deg)) translate(0px, 0);
+        box-shadow: 0px 0px 40px rgba(255, 254, 253, 0.5);
+    }
+}
+</style>
 
 <style scoped>
 img {
     padding: 5px;
 }
-
-@keyframes enter {
-
-    0% {
-
-        transform: rotate(0deg) translate(0, 300px);
-    }
-
-    50% {
-        transform: rotate(-8deg) translate(0, 0);
-        box-shadow: 0px 0px 40px rgba(255, 254, 253, 0.5);
-    }
-
-    100% {
-        transform: rotate(-8.0deg) translate(0px, 0);
-        box-shadow: 0px 0px 40px rgba(255, 254, 253, 0.5);
-    }
-}
-
 
 .card {
     background: #e4b0b0ff;

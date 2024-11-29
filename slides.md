@@ -107,7 +107,7 @@ layout: CardAndText
 ---
 
 <template v-slot:card>
-  <LightCard title="Community" imageUrl="/community.svg" />
+  <LightCard title="Community" imageUrl="/community.svg" rotationAngle="3" />
 </template>
 
 # Community
@@ -117,7 +117,7 @@ layout: CardAndText
 ---
 
 <template v-slot:card>
-  <LightCard title="Vitality" imageUrl="/community.svg" />
+  <LightCard title="Vitality" imageUrl="/community.svg" rotationAngle="-4" />
 </template>
 
 # The body
@@ -127,7 +127,7 @@ layout: CardAndText
 ---
 
 <template v-slot:card>
-  <LightCard title="Art" imageUrl="/community.svg" />
+  <LightCard title="Art" imageUrl="/community.svg" rotationAngle="7" />
 </template>
 
 # Art
