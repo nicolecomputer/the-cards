@@ -6,12 +6,9 @@ info: |
 
 # apply unocss classes to the current slide
 class: text-center
-# https://sli.dev/features/drawing
 drawings:
   persist: false
-# slide transition: https://sli.dev/guide/animations.html#slide-transitions
 transition: fade
-# take snapshot for each slide in the overview
 overviewSnapshots: true
 
 colorSchema: dark
@@ -44,17 +41,25 @@ layout: TableCenter
 
 # Dark Cards
 
+Probably all on one table
+
 ---
 layout: TableCenter
 ---
 
 # Light Cards
 
+Probably all on one table
+
+
 ---
 layout: TableCenter
 ---
 
 # Obstacles
+
+Probably all on one table
+
 
 
 ---
