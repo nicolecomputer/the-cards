@@ -61,7 +61,14 @@ layout: TableCenter
 layout: TableCenter
 ---
 
-# Nature
+<TheComputer />
+
+
+---
+layout: CardAndText
+---
+
+<Nature />
 
 ---
 layout: TableCenter
