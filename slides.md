@@ -131,18 +131,15 @@ layout: TableCenter
 layout: TableCenter
 ---
 
-# Momento Mori
+# Momento Homo
 
 ---
 layout: TableCenter
 ---
 
-# You are loved
+<h1 class="loved">You are loved</h1>
 
-
-
-
-
+<Nametag />
 
 
 
