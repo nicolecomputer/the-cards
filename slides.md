@@ -13,6 +13,8 @@ drawings:
 transition: fade
 # take snapshot for each slide in the overview
 overviewSnapshots: true
+
+colorSchema: dark
 ---
 
 <Welcome>
@@ -20,7 +22,7 @@ overviewSnapshots: true
 </Welcome>
 
 ---
-layout: TableCenter
+layout: CurtainCenter
 ---
 
 # The hero
