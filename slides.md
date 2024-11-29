@@ -83,7 +83,7 @@ layout: TableCenter
 layout: TableCenter
 ---
 
-5 cards face down
+<FiveCards />
 
 <!---
 With that said, I want to tell you about some of the light cards that I've learned, that help me.

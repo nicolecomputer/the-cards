@@ -16,7 +16,7 @@ defineProps({
 <style scoped>
 img {
   border-radius: 10px;
-  background-color: rgb(9, 0, 77);
+  background-color: rgb(11, 9, 23);
   width: 100%;
   height: 100%;
 }
@@ -60,7 +60,6 @@ img {
   height: 350px;
   width: 220px;
   padding: 10px;
-  position: absolute;
   transition: all ease-in 0.3s;
 }
 
