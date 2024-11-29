@@ -95,7 +95,7 @@ layout: CardAndText
 ---
 
 <template v-slot:card>
-  <Nature />
+  <LightCard title="Nature" imageUrl="/nature.svg" />
 </template>
 
 - Blah
@@ -103,26 +103,42 @@ layout: CardAndText
 - Anothe blah
 
 ---
-layout: TableCenter
+layout: CardAndText
 ---
+
+<template v-slot:card>
+  <LightCard title="Community" imageUrl="/community.svg" />
+</template>
 
 # Community
 
 ---
-layout: TableCenter
+layout: CardAndText
 ---
+
+<template v-slot:card>
+  <LightCard title="Vitality" imageUrl="/community.svg" />
+</template>
 
 # The body
 
 ---
-layout: TableCenter
+layout: CardAndText
 ---
+
+<template v-slot:card>
+  <LightCard title="Art" imageUrl="/community.svg" />
+</template>
 
 # Art
 
 ---
-layout: TableCenter
+layout: CardAndText
 ---
+
+<template v-slot:card>
+  <LightCard title="Rest" imageUrl="/community.svg" />
+</template>
 
 # Rest
 

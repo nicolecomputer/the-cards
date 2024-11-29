@@ -1,11 +1,21 @@
 <template>
     <div class="card">
-        <img src="/nature.svg" />
-        <h2>Nature</h2>
+        <img :src="imageUrl" />
+        <h2>{{ title }}</h2>
     </div>
 </template>
 
 <script setup>
+const props = defineProps({
+    imageUrl: {
+        type: String,
+        required: true,
+    },
+    title: {
+        type: String,
+        required: true,
+    },
+});
 </script>
 
 <style scoped>
