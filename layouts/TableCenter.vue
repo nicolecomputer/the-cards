@@ -14,11 +14,12 @@
     left: 0;
     bottom: 0;
     right: 0;
-     background-color: rgb(21, 0, 28);
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     color: white;
+    background-color: rgb(21, 0, 28);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
 }
 
 #overlay::after {
@@ -30,7 +31,7 @@
     bottom: 40;
 
     border: 2px solid #DE9B72;
-   	height: 95%;
+    height: 95%;
     width: 98%;
     padding: 6px;
     margin: 0 auto;

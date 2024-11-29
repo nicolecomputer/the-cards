@@ -1,6 +1,11 @@
 <template>
     <div id="overlay">
-        <slot></slot>
+        <div class="card-slot">
+            <slot name="card" class="card-slot" />
+        </div>
+        <div class="text-slot">
+            <slot />
+        </div>
     </div>
 </template>
 
@@ -8,6 +13,14 @@
 </script>
 
 <style scoped>
+.card-slot {
+    margin: 0 160px;
+}
+
+.text-slot {
+    flex: 1
+}
+
 #overlay {
     position: absolute;
     top: 0;

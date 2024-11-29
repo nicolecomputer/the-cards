@@ -13,15 +13,19 @@ img {
     padding: 5px;
 }
 
-@keyframes bob {
+@keyframes enter {
 
-    0%,
-    100% {
-        transform: translate(0, 0) rotate(1deg);
+    0% {
+
+        transform: rotate(0deg) translate(0, 300px);
     }
 
     50% {
-        transform: translate(0, 12px) rotate(-1deg);
+        transform: rotate(-8deg) translate(0, 0);
+    }
+
+    100% {
+        transform: rotate(-8.0deg) translate(0px, 0)
     }
 }
 
@@ -33,7 +37,8 @@ img {
     height: 350px;
     width: 220px;
 
-    animation: bob 5s ease-in-out infinite;
+    animation: enter 1.2s ease-in-out;
+    animation-fill-mode: forwards;
     transform-origin: center center;
 
 }
