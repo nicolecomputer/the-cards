@@ -53,18 +53,30 @@ layout: TableCenter
 layout: TableCenter
 ---
 
-# Light Cards
-
-Probably all on one table
+<ThreeUp>
+  <CardFront title="Time of peace" kind="light" imageUrl="" :animated="false" />
+  <v-click>
+    <CardFront title="Strong Family" kind="light" imageUrl="" :animated="false" />
+  </v-click>
+  <v-click>
+    <CardFront title="Health" kind="light" imageUrl="" :animated="false" />
+  </v-click>
+</ThreeUp>
 
 
 ---
 layout: TableCenter
 ---
 
-# Obstacles
-
-Probably all on one table
+<ThreeUp>
+  <CardFront title="Relationship Ending" kind="obstacle" imageUrl="" :animated="false" />
+  <v-click>
+    <CardFront title="Career Changes" kind="obstacle" imageUrl="" :animated="false" />
+  </v-click>
+  <v-click>
+    <CardFront title="Identity Crisis" kind="obstacle" imageUrl="" :animated="false" />
+  </v-click>
+</ThreeUp>
 
 
 

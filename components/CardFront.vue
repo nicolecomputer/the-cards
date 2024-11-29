@@ -71,7 +71,7 @@ img {
 }
 
 .card--obstacle {
-    background: red;
+    background: #e8e3d3ff;
 }
 
 
