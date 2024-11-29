@@ -146,13 +146,15 @@ layout: CardAndText
 layout: TableCenter
 ---
 
-# Momento Homo
+<h1 class="warning">
+Momento Homo
+</h1>
 
 ---
 layout: TableCenter
 ---
 
-<h1 class="loved">You are loved</h1>
+<h1 class="loved">You are loved.</h1>
 
 <Nametag />
 

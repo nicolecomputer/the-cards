@@ -11,3 +11,21 @@
 .loved {
     font-size: 44px;
 }
+
+@keyframes warning-animation {
+    0% {
+        color: white;
+    }
+
+    100% {
+        color: red;
+    }
+}
+
+.warning {
+    font-size: 22px;
+    color: white;
+
+    animation: warning-animation 5s ease-in-out 0s infinite alternate-reverse forwards;
+    transform-origin: center center;
+}

@@ -18,8 +18,8 @@ const props = defineProps({
         required: true,
     },
     rotationAngle: {
-        type: Number,
-        default: -8,
+        type: String,
+        default: "-8",
     }
 });
 
