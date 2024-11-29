@@ -1,5 +1,5 @@
 <template>
-  <div class="card" :class="{ animated: animated }">
+  <div class="card" :class="[`card--${size}`, { animated: animated }]">
     <img src="/card.svg" />
   </div>
 </template>
@@ -9,18 +9,16 @@ defineProps({
   animated: {
     type: Boolean,
     default: false
+  },
+  size: {
+    type: String,
+    default: 'large',
+    validator: (value) => ['small', 'medium', 'large'].includes(value)
   }
 })
 </script>
 
 <style scoped>
-img {
-  border-radius: 10px;
-  background-color: rgb(11, 9, 23);
-  width: 100%;
-  height: 100%;
-}
-
 @keyframes shake {
 
   0%,
@@ -53,12 +51,19 @@ img {
   }
 }
 
+img {
+  border-radius: 10px;
+  background-color: rgb(9, 7, 26);
+  width: 100%;
+  height: 100%;
+}
+
 .card {
   background: #e4e4e4;
   border-radius: 16px;
   box-shadow: 10px 10px 20px rgba(255, 254, 253, 0.3);
-  height: 350px;
-  width: 220px;
+  height: 200px;
+  aspect-ratio: 220/350;
   padding: 10px;
   transition: all ease-in 0.3s;
 }
@@ -66,5 +71,20 @@ img {
 .animated {
   animation: shake 2.2s linear infinite;
   transform-origin: center center;
+}
+
+.card--small {
+  height: 150px;
+  padding: 7px;
+}
+
+.card--medium {
+  height: 250px;
+  padding: 8px;
+}
+
+.card--large {
+  height: 350px;
+  padding: 10px;
 }
 </style>

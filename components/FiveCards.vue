@@ -1,10 +1,10 @@
 <template>
     <div class="face-down">
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+        <Card size="medium" />
+        <Card size="medium" />
+        <Card size="medium" />
+        <Card size="medium" />
+        <Card size="medium" />
     </div>
 </template>
 
