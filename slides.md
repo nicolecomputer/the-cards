@@ -56,11 +56,6 @@ layout: TableCenter
 
 # Obstacles
 
----
-layout: TableCenter
----
-
-# Light Cards as helpers
 
 ---
 layout: TableCenter
