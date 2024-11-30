@@ -25,6 +25,16 @@ img {
     }
 }
 
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
 
 .card {
     background: #e8e3d3ff;
@@ -33,9 +43,11 @@ img {
     height: 350px;
     width: 220px;
 
-    animation: bob 5s ease-in-out infinite;
+    opacity: 0;
+    animation:
+        fadeIn 1s ease-in 0.4s forwards,
+        bob 5s ease-in-out infinite;
     transform-origin: center center;
-
 }
 
 h2 {
