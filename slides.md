@@ -56,10 +56,10 @@ layout: TableCenter
 <ThreeUp>
   <CardFront title="Time of peace" kind="light" imageUrl="/light-peace.svg" :animated="false" />
   <v-click>
-    <CardFront title="Strong Family" kind="light" imageUrl="/light-blank.svg" :animated="false" />
+    <CardFront title="Strong Family" kind="light" imageUrl="/light-family.svg" :animated="false" />
   </v-click>
   <v-click>
-    <CardFront title="Health" kind="light" imageUrl="/light-blank.svg" :animated="false" />
+    <CardFront title="Health" kind="light" imageUrl="/light-health.svg" :animated="false" />
   </v-click>
 </ThreeUp>
 
@@ -69,12 +69,12 @@ layout: TableCenter
 ---
 
 <ThreeUp>
-  <CardFront title="Relationship Ending" kind="obstacle" imageUrl="/obstacle-blank.svg" :animated="false" />
+  <CardFront title="Relationship Ending" kind="obstacle" imageUrl="/obstacle-heartbreak.svg" :animated="false" />
   <v-click>
-    <CardFront title="Career Changes" kind="obstacle" imageUrl="/obstacle-blank.svg" :animated="false" />
+    <CardFront title="Career Changes" kind="obstacle" imageUrl="/obstacle-job-loss.svg" :animated="false" />
   </v-click>
   <v-click>
-    <CardFront title="Identity Crisis" kind="obstacle" imageUrl="/obstacle-blank.svg" :animated="false" />
+    <CardFront title="Identity Crisis" kind="obstacle" imageUrl="/obstacle-identity.svg" :animated="false" />
   </v-click>
 </ThreeUp>
 
