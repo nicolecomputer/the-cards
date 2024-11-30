@@ -130,9 +130,18 @@ layout: CardAndText
   <CardFront title="Nature" imageUrl="/nature.svg" />
 </template>
 
-- Blah
-- Bleeehhhhh
-- Anothe blah
+- Read a book somewhere peaceful
+- Camp outside
+- Walk somewhere that makes you feel alive
+
+<!-- Nature reminds us that we are part of something bigger. It reminds us that there are season to
+being alive. It teaches us to slow and to feel. Being in Nature doesn't have to be complicated. Take a book and read somewhere you find
+peaceful. Listen to the way the world sounds. Spend a night camping outside with the magic of a fire. Car camping counts. Walk in
+the solemnity of a forest or deep in a city park. What birds are those? What's the name of that plant?
+
+Nature helps break the spell of the computer. It is not rigid, it flows. Answers can be right and wrong at the same time. It's answer is
+always "it depends".
+-->
 
 ---
 layout: CardAndText
