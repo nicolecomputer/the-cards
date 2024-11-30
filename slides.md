@@ -153,6 +153,23 @@ layout: CardAndText
 
 # Community
 
+- Start with hello
+- Really listen to the stories
+- Find community in play, creativity, shared experiences, shared curiosities
+
+<!--Community will save your life. Again and again. Your community will remind you that you are not alone, that your feelings
+are wonderous and yours and also familiar. Whoever you are, not matter how lonely, community beckons to you. Start with hello.
+Find the people who make you feel alive and grounded in the fullness of yourself. Ask about their adventures, really listen.
+Give of yourself with no expectation other than knowing and being known. You may have a dark card of social anxiety, I know
+I do. Try to be patient, feel your feet on the ground, the air in your lungs.
+
+Community exists in so many forms from people you play video games with, solve crosswords with, mail postcards to, program
+with and so much.
+
+Even computers long for community. They connect over huge distances. But the protocols are rigid. Remember to give and flex in
+your community.
+-->
+
 ---
 layout: CardAndText
 ---
