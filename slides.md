@@ -54,7 +54,7 @@ layout: TableCenter
 ---
 
 <ThreeUp>
-  <CardFront title="Time of peace" kind="light" imageUrl="/light-blank.svg" :animated="false" />
+  <CardFront title="Time of peace" kind="light" imageUrl="/light-peace.svg" :animated="false" />
   <v-click>
     <CardFront title="Strong Family" kind="light" imageUrl="/light-blank.svg" :animated="false" />
   </v-click>
