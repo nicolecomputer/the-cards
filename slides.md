@@ -190,8 +190,11 @@ and nurture them. Being in your body can be a group thing in team sports or even
 together. For many of us, though, we might be drawn to solitary activities.
 
 For me running is a practice that makes me feel more alive. At first my mind will be loud with stories
-but as I get into a run things quiet and I am feeling my feet hit the ground and my breath come in
-1, 2, 3 and then out 1, 2, 3.
+but as I get into a run things quiet and I am feeling my feet hit the ground.
+
+If movement is hard for you here are two perspectives that might help: think of it like medicine at first.
+You take your dose, your life improves. Or maybe look for the "hill climbing". Can you run 1 kilometer?
+What about 2? And see where it goes.
 
 You don't need to know this to enjoy it but playing in your body throughout extends the quality and quantity
 of your life. You have to practice a little everday.
