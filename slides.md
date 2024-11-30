@@ -22,9 +22,11 @@ clicks: 1
 
 ---
 layout: CurtainCenter
+clicks: 1
+transition: none
 ---
 
-<Card :animated="true" />
+<TheHero />
 
 <!-- This is the story of you (flip card) and of me and of what it means to be alive and doing your best -->
 
