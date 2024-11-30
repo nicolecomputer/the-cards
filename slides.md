@@ -13,6 +13,7 @@ overviewSnapshots: true
 
 colorSchema: dark
 layout: TableCenter
+clicks: 1
 ---
 
 <Cards />

@@ -1,6 +1,8 @@
 <template>
   <div class="perspective">
-    <div class="card-container spread" :class="{ 'spread': isSpread }" @click="toggleSpread">
+    <div class="card-container " :class="{
+      'spread': $slidev.nav.clicks >= 1
+    }" @click="toggleSpread">
       <div class="card card-1">
         <img src="/card.svg" />
       </div>
@@ -18,13 +20,6 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
-
-const isSpread = ref(false)
-const toggleSpread = () => {
-  console.log('click', isSpread.value) // Add this to debug
-  isSpread.value = !isSpread.value
-}
 </script>
 
 <style scoped>
