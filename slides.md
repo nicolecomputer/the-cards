@@ -212,7 +212,10 @@ layout: CardAndText
 - Art is writing, scribbling, folding the paper
 - Not for impressing others
 
-<!-- The world is so big and so full and it can, at times seem full of dark cards. Making is an act of rebellion.
+<!--
+Art gives your mind a break form rigid thinking.
+
+The world is so big and so full and it can, at times seem full of dark cards. Making is an act of rebellion.
 Making says I exist, I matter. I am full of feeling and wonder. Art may feel awkward at first. You might not be
 good at it or it might be a long forogtten form of play. Your hands, your mind, and spirit crave this kind of play.
 Remember when you were excited to draw the forms or home, family, cards, trees. That spark is still alive in you.
