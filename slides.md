@@ -180,7 +180,25 @@ layout: CardAndText
   <CardFront title="Vitality" imageUrl="/vitality.svg" rotationAngle="-4" />
 </template>
 
-# The body
+- Your body craves plays
+- Running, swimming, frisbee, dance!
+- A happier longer life
+
+<!-- Your body craves play. Somewhere inside of you you probably already know this. It wants to run
+and move and jump. It wants to twirl a pen between fingers just because it's cool. Find these feeling
+and nurture them. Being in your body can be a group thing in team sports or even just going for a walk
+together. For many of us, though, we might be drawn to solitary activities.
+
+For me running is a practice that makes me feel more alive. At first my mind will be loud with stories
+but as I get into a run things quiet and I am feeling my feet hit the ground and my breath come in
+1, 2, 3 and then out 1, 2, 3.
+
+You don't need to know this to enjoy it but playing in your body throughout extends the quality and quantity
+of your life. You have to practice a little everday.
+
+Being in your body is almost the computer's opposite. You think and feel with the whole of you. Especially
+after a long day of programming there's probably a part of you craving this.
+-->
 
 ---
 layout: CardAndText
