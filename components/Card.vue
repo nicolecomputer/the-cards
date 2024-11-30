@@ -1,5 +1,5 @@
 <template>
-  <div class="card" :class="[`card--${size}`, { animated: animated }]" :style="cardStyle">
+  <div class="card" :class="[`card--${size}`]" :style="cardStyle">
     <img src="/card.svg" />
   </div>
 </template>
@@ -8,10 +8,6 @@
 import { computed } from 'vue'
 
 const props = defineProps({
-  animated: {
-    type: Boolean,
-    default: false
-  },
   size: {
     type: String,
     default: 'large',
@@ -29,38 +25,6 @@ const cardStyle = computed(() => ({
 </script>
 
 <style scoped>
-@keyframes shake {
-
-  0%,
-  100% {
-    transform: rotate(0deg) translate(0, 0);
-  }
-
-  15% {
-    transform: rotate(2deg) translate(-2px, -2px);
-  }
-
-  30% {
-    transform: rotate(-1.5deg) translate(2px, 1px);
-  }
-
-  45% {
-    transform: rotate(1deg) translate(-1px, -1px);
-  }
-
-  60% {
-    transform: rotate(-3deg) translate(2px, 2px);
-  }
-
-  75% {
-    transform: rotate(1.5deg) translate(-2px, 1px);
-  }
-
-  90% {
-    transform: rotate(-1deg) translate(1px, -1px);
-  }
-}
-
 img {
   border-radius: 10px;
   background-color: rgb(9, 7, 26);
@@ -75,11 +39,6 @@ img {
   aspect-ratio: 220/350;
   padding: 10px;
   transition: all ease-in 0.3s;
-}
-
-.animated {
-  animation: shake 2.2s linear infinite;
-  transform-origin: center center;
 }
 
 .card--small {

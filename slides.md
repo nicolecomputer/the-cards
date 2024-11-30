@@ -18,7 +18,7 @@ clicks: 1
 
 <Cards />
 
-<!-- I want to tell you a story -->
+<!-- I want to tell you a story (flip, count to two) -->
 
 ---
 layout: CurtainCenter
@@ -28,7 +28,7 @@ transition: none
 
 <TheHero />
 
-<!-- This is the story of you (flip card) and of me and of what it means to be alive and doing your best -->
+<!-- This is the story of you (flip card). The hero. It is the story of me as well and what it means to be alive and doing your best -->
 
 
 ---
@@ -37,7 +37,7 @@ layout: TableCenter
 
 <FlowingCards />
 
-<!-- You get delt cards -->
+<!-- In life we are dealt cards. We do not ask for these cards. Some of them are dealt at birth some, later in life. -->
 ---
 layout: TableCenter
 ---
@@ -52,6 +52,8 @@ layout: TableCenter
   </v-click>
 </ThreeUp>
 
+<!--Some are dark cards. Like chronic depression (click), perfectionism (click), and nuerodiversity. These cards will be with us our whole life and you must make them your friends. Take them to tea. Get to know them.-->
+
 ---
 layout: TableCenter
 ---
@@ -65,6 +67,8 @@ layout: TableCenter
     <CardFront title="Health" kind="light" imageUrl="/light-health.svg" :animated="false" />
   </v-click>
 </ThreeUp>
+
+<!-- Some cards are light cards. You may have been born into a time of peace and prosperity. (click) You may have a strong family. (click) You may have your health. These are blessings. These too you did not earn. They are the grace of the universe. Treasure them. -->
 
 
 ---
@@ -81,6 +85,8 @@ layout: TableCenter
   </v-click>
 </ThreeUp>
 
+<!-- As you live through life you will be dealt obstacles. They will appear when it's most inconvient. You will need to do your best. Relationships will end.  (click) Careers will change, sometimes suddenly. (click) And you will have moments of identity crisis. You will overcome these obstacles. -->
+
 
 
 ---
@@ -88,6 +94,8 @@ layout: TableCenter
 ---
 
 <TheComputer />
+
+<!-- By being here, and listening, hero. You have been dealt an obstacle card of the computer. We all share this card. This machine is a box of wonder but it will also steal your heart and make your mind hard. Do not let it do this. Fight for your hummanity, your body, your community. You need to remember that you are a person first and a computer practioner second.-->
 
 ---
 layout: TableCenter
@@ -101,6 +109,8 @@ layout: TableCenter
 <p class="im-sorry">I'm so sorry. I wish it were different.</p>
 </v-click>
 
+<!-- These are your cards. You must bear them, love them work with them. You cannot wish away your dark cards. You cannot stop obstacles. You will age. The people you love will change. (click) I wish it were different. I'm so sorry.-->
+
 ---
 layout: TableCenter
 ---
@@ -108,7 +118,7 @@ layout: TableCenter
 <FiveCards />
 
 <!---
-With that said, I want to tell you about some of the light cards that I've learned, that help me.
+You will have aid. You may not always know the light cards that are available to you. But I want to tell you about some that dear to me.
 -->
 
 
@@ -172,6 +182,8 @@ layout: TableCenter
 Momento Homo
 </h1>
 
+<!-- Remember that you are a person. You are filled with wonder and universes and magic. And you are also full of feeling. You will need rest. You will have sick days. You will have wonderous days. Remember that you are a person and you are allowed all of it.-->
+
 ---
 layout: TableCenter
 ---
@@ -180,5 +192,6 @@ layout: TableCenter
 
 <Nametag />
 
+<!-- You are loved, my hero. May your adventure be wonderous. Be good to each other.-->
 
 
