@@ -141,6 +141,8 @@ the solemnity of a forest or deep in a city park. What birds are those? What's t
 
 Nature helps break the spell of the computer. It is not rigid, it flows. Answers can be right and wrong at the same time. It's answer is
 always "it depends".
+
+You can not have an inauthentic experience in nature. Relax into what is there in that moment. You'll feel better.
 -->
 
 ---
@@ -188,7 +190,20 @@ layout: CardAndText
   <CardFront title="Art" imageUrl="/art.svg" rotationAngle="7" />
 </template>
 
-# Art
+- Start with paper and an analogue
+- Art is writing, scribbling, folding the paper
+- Not for impressing others
+
+<!-- The world is so big and so full and it can, at times seem full of dark cards. Making is an act of rebellion.
+Making says I exist, I matter. I am full of feeling and wonder. Art may feel awkward at first. You might not be
+good at it or it might be a long forogtten form of play. Your hands, your mind, and spirit crave this kind of play.
+Remember when you were excited to draw the forms or home, family, cards, trees. That spark is still alive in you.
+
+The art you make is for you. Start with a sheet of paper and an analog tool. Your hand will know what to do. Do you
+want to write stories? Draw scribbles? Faces? Words? Plans? This is a part of you talking to yourself. Listen.
+
+You are not making art to impress others. This is a catharsis. This is a messy part of you that wants to be heard.
+-->
 
 ---
 layout: CardAndText
@@ -198,7 +213,23 @@ layout: CardAndText
   <CardFront title="Rest" imageUrl="/rest.svg" />
 </template>
 
-# Rest
+- More than just a good night's sleep
+- Go for a walk with no technology
+- Consider a duvet day
+
+<!-- This is perhaps the hardest of the light cards that I know. You must rest. Rest is not just sleeping at night,
+although your needs and craves that. It also means fallow periods. It means time where nothing is expected of you
+either by yourself or by others. You are tending to the fullness of yourself and investing in the future. I promise
+you are not lazy for needing rest, recovery and space.
+
+One form of rest that I find helpful is the "duvet day". On a duvet day I make an effort to stay in pajamas, I hang
+around the couch or the bed. I read. I listen to music. I don't check my fitness rings or worry about what I have
+created or done that day. I allow myself rest. You might find your version of duvet day be it sabbath, no-technology
+at the dinner table, or trips to places where there's no cell reception.
+
+The computer and technology never ceases and always wants. It sends push notifications, runs cron jobs, and grows
+bigger every moment. You are not a computer.
+ -->
 
 ---
 layout: TableCenter
