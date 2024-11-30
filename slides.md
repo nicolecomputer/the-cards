@@ -95,7 +95,7 @@ layout: TableCenter
 
 <TheComputer />
 
-<!-- By being here, and listening, hero. You have been dealt an obstacle card of the computer. We all share this card. This machine is a box of wonder but it will also steal your heart and make your mind hard. Do not let it do this. Fight for your hummanity, your body, your community. You need to remember that you are a person first and a computer practioner second.-->
+<!-- By being here, and listening, You have been dealt an obstacle card of the computer. We all share this card. This machine is a box of wonder but it will also steal your heart and make your mind hard. Do not let it do this. Fight for your hummanity, your body, your community. You need to remember that you are a person first and a computer practioner second.-->
 
 ---
 layout: TableCenter
@@ -196,9 +196,6 @@ If movement is hard for you here are two perspectives that might help: think of 
 You take your dose, your life improves. Or maybe look for the "hill climbing". Can you run 1 kilometer?
 What about 2? And see where it goes.
 
-You don't need to know this to enjoy it but playing in your body throughout extends the quality and quantity
-of your life. You have to practice a little everday.
-
 Being in your body is almost the computer's opposite. You think and feel with the whole of you. Especially
 after a long day of programming there's probably a part of you craving this.
 -->
@@ -273,6 +270,6 @@ layout: TableCenter
 
 <Nametag />
 
-<!-- You are loved, my hero. May your adventure be wonderous. Be good to each other.-->
+<!-- You are loved. May your adventure be wonderous. Be good to each other.-->
 
 
