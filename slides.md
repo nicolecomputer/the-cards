@@ -153,8 +153,6 @@ layout: CardAndText
   <CardFront title="Community" imageUrl="/community.svg" rotationAngle="3" />
 </template>
 
-# Community
-
 - Start with hello
 - Really listen to the stories
 - Find community in play, creativity, shared experiences, shared curiosities
